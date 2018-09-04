@@ -1,0 +1,6 @@
+[
+    { "caption": "RegegxRemove: Erase All", "command": "erase_all_types" },
+    { "caption": "RegegxRemove: Erase All Table Types", "command": "erase_all_table_types" },
+    { "caption": "RegegxRemove: Erase Inline Styles", "command": "erase_all_inline_styles" },
+    { "caption": "RegegxRemove: Erase Custom Input", "command": "erase_input" },
+]
