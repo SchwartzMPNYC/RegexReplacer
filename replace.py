@@ -1,7 +1,7 @@
 import sublime
 import sublime_plugin
 
-regex_strings = {'styles':' style=".*?"', 'tables':'</?(table|tbody|thead|tr|td)>'}
+regex_strings = {'styles':' style=".*?"', 'tables':'</?(table|tbody|thead|tr|td).*?>'}
 
 class EraseAllTypesCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
